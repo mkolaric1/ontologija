@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Podcast ontologija</string>
+    <string name="REST_URL">https://oziz.ffos.hr/nastava20192020/mkolaric_19/ontologija/search/</string>
+    <string name="app_label">P3 Ontologija</string>
+    <string name="uri_podcasta">URI podcasta:</string>
+    <string name="trajanje_podcasta">Trajanje podcasta:</string>
+    <string name="broj_pregleda">Broj pregleda:</string>
+    <string name="voditelj">Voditelj:</string>
+    <string name="upi_ite_rije_ili_dio_rije_i_cijela_ontologija_ispisuje_sve">Upišite riječ ili dio riječi, cijela ontologija ispisuje sve.</string>
+</resources>

@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-10="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#broj_pregleda -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#broj_pregleda"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#naziv_podcasta -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#naziv_podcasta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#podcast_trajanje -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#podcast_trajanje"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#uri_podcasta -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#uri_podcasta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#voditelj -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#voditelj"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija"/>
+        <broj_pregleda rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.584</broj_pregleda>
+        <naziv_podcasta>Joe Rogan Experience</naziv_podcasta>
+        <podcast_trajanje>2:11:15</podcast_trajanje>
+        <uri_podcasta>www.jre.com</uri_podcasta>
+        <voditelj>Joe Rogan</voditelj>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija"/>
+        <broj_pregleda rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">254.156</broj_pregleda>
+        <naziv_podcasta>Bodies</naziv_podcasta>
+        <podcast_trajanje>2:15:16</podcast_trajanje>
+        <uri_podcasta>www.bodies.com</uri_podcasta>
+        <voditelj>Allison Behringer</voditelj>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija"/>
+        <broj_pregleda rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65.123</broj_pregleda>
+        <naziv_podcasta>Black Girls, 1 Rose</naziv_podcasta>
+        <podcast_trajanje>2:11:17</podcast_trajanje>
+        <uri_podcasta>www.uriblackrose.com</uri_podcasta>
+        <voditelj>Natasha Scott</voditelj>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija"/>
+        <broj_pregleda rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.512</broj_pregleda>
+        <naziv_podcasta>American Fiasco</naziv_podcasta>
+        <podcast_trajanje>3:12:11</podcast_trajanje>
+        <uri_podcasta>www.americanfiasco.com</uri_podcasta>
+        <voditelj>Roger Bennet</voditelj>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija"/>
+        <broj_pregleda rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">321.123</broj_pregleda>
+        <naziv_podcasta>The Argument</naziv_podcasta>
+        <podcast_trajanje>6:12:14</podcast_trajanje>
+        <uri_podcasta>www.theargument.com</uri_podcasta>
+        <voditelj>Michelle Goldberg</voditelj>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija"/>
+        <broj_pregleda rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.145</broj_pregleda>
+        <naziv_podcasta>Bear Brook</naziv_podcasta>
+        <podcast_trajanje>3:12:14</podcast_trajanje>
+        <uri_podcasta>www.bearbrook.com</uri_podcasta>
+        <voditelj>Jason Moon</voditelj>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija"/>
+        <broj_pregleda rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">545.652</broj_pregleda>
+        <naziv_podcasta>Beautiful Stories From Anonymous People</naziv_podcasta>
+        <podcast_trajanje>1:14:45</podcast_trajanje>
+        <uri_podcasta>www.storiespeople.com</uri_podcasta>
+        <voditelj>Chris Gethard</voditelj>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija"/>
+        <broj_pregleda rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">568.124</broj_pregleda>
+        <naziv_podcasta>Believed</naziv_podcasta>
+        <podcast_trajanje>3:58:14</podcast_trajanje>
+        <uri_podcasta>www.believed.com</uri_podcasta>
+        <voditelj>Larry Nassar</voditelj>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija"/>
+        <broj_pregleda rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">879.145</broj_pregleda>
+        <naziv_podcasta>The Big One</naziv_podcasta>
+        <podcast_trajanje>4:12:14</podcast_trajanje>
+        <uri_podcasta>www.thebigone.com</uri_podcasta>
+        <voditelj>Jacob Margolis</voditelj>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija_9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ja/ontologies/2021/0/untitled-ontology-10#Emisija"/>
+        <broj_pregleda rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">654.123</broj_pregleda>
+        <naziv_podcasta>The Birth Hour</naziv_podcasta>
+        <podcast_trajanje>2:14:15</podcast_trajanje>
+        <uri_podcasta>www.thebirthhour.com</uri_podcasta>
+        <voditelj>Bryn Huntpalmer</voditelj>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
